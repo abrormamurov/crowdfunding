@@ -1,0 +1,630 @@
+/* commissioner-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/commissioner-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* commissioner-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/commissioner-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* commissioner-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/commissioner-v20-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+img {
+    object-fit: cover;
+    display: flex;
+}
+
+h1 {
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    font-family: 'Commissioner', sans-serif;
+    color: #7A7A7A;
+    line-height: 30px;
+}
+
+.container {
+    width: 100%;
+    min-width: 1207px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header {
+    height: 400px;
+    background-image: url(../images/Bitmap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-container-wrapper {
+    opacity: 0.6;
+background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.header-container {
+   display: flex; 
+   justify-content: space-between;
+   padding-top: 48px;
+   padding-bottom: 60px;
+}
+
+.site-logo {
+
+}
+
+.site-logo-image {
+
+}
+
+.sitenav {
+
+}
+
+.sitenav-list {
+    display: flex;
+    gap: 32px;
+}
+
+.sitenav-item {
+
+}
+
+.sitenav-link {
+    font-weight: 500;
+    font-size: 13px;
+    color: #fff;
+}
+
+.main-head {
+    width: 730px;
+height: 269px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 0.05);
+background: #FFF;
+border: 1px;
+margin-top: -153px;
+margin-left: 355px;
+}
+
+.main-text {
+    color: #000;
+text-align: center;
+font-family: Commissioner;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 15px;
+}
+
+.main-text-2 {
+    color: #7A7A7A;
+text-align: center;
+font-family: Commissioner;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 40px;
+}
+
+.main-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 730px;
+flex-shrink: 0;
+}
+
+.main-list {
+    width: 204px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 33.5px;
+background: #3CB3AB;
+padding-top: 17px;
+margin-left: 48px;
+}
+
+.main-list-text {
+    color: #FFF;
+font-family: Commissioner;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.img-text {
+    width: 174px;
+height: 56px;
+flex-shrink: 0;
+display: flex;
+gap: 16px;
+
+}
+
+.img-text-2 {
+    color: #7A7A7A;
+font-family: Commissioner;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 17px;
+}
+
+.main-2-img {
+    width: 56px;
+    height: 56px;
+    math-shift: 0;
+    margin-left: 337px;
+}
+
+
+
+.footer {
+    width: 730px;
+height: 212px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 0.05);
+background: #FFF;
+margin-left: 355px;
+margin-top: 24px;
+}
+
+.main-footer-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-1 {
+    color: #000;
+font-family: Commissioner;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.item-1-1 {
+    color: #7A7A7A;
+font-family: Commissioner;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.item-2 {
+    color: #000;
+font-family: Commissioner;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.item-2-1 {
+    color: #7A7A7A;
+font-family: Commissioner;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.item-3 {
+    color: #000;
+    font-family: Commissioner;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.item-3-1 {
+    color: #7A7A7A;
+font-family: Commissioner;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.main-footer-image {
+    width: 496px;
+height: 12px;
+flex-shrink: 0;
+border-radius: 33.5px;
+background: #3CB3AB;
+margin-top: 37px;
+margin-left: 74px;
+}
+
+
+
+.footer-head {
+    color: #000;
+font-family: Commissioner;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 48px;
+margin-top: 48px;
+}
+
+.footer-head-text {
+    color: #7A7A7A;
+font-family: Commissioner;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+width: 634px;
+margin-top: 38px;
+margin-left: 48px;
+}
+
+.footer-card {
+    margin-top: 40px;
+    margin-left: 48px;
+    width: 634px;
+height: 248px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 0.15);
+background: #FFF;
+}
+
+.card-t {
+    color: #000;
+font-family: Commissioner;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 38px;
+margin-left: 32px;
+}
+
+.card-text {
+    color: #3CB3AB;
+text-align: right;
+font-family: Commissioner;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 40px;
+margin-right: 32px;
+}
+
+.footer-card-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-card-text {
+    color: #7A7A7A;
+font-family: Commissioner;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+width: 570px;
+margin-top: 24px;
+margin-left: 32px;
+}
+
+.footer-card-t-1 {
+    color: #000;
+font-family: Commissioner;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 32px;
+margin-top: 29px;
+width: 51px;
+height: 39px;
+
+}
+
+.footer-card-t-2 {
+    color: #7A7A7A;
+font-family: Commissioner;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 40px;
+padding-bottom: 46px;
+
+}
+
+.footer-card-item {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.footer-card-item-2 {
+    width: 157px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 33.5px;
+background: #3CB3AB;
+margin-left: 341px;
+margin-top: 24px;
+}
+
+.carser {
+    color: #FFF;
+font-family: Commissioner;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 15px;
+}
+
+.footer-footer-card {
+    margin-top: 40px;
+    margin-left: 48px;
+    width: 634px;
+height: 248px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 0.15);
+background: #FFF;
+}
+
+.card-footer-t {
+    color: #000;
+font-family: Commissioner;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 38px;
+margin-left: 32px;
+}
+
+.card-footer-text {
+    color: #3CB3AB;
+text-align: right;
+font-family: Commissioner;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 40px;
+margin-right: 32px;
+}
+
+.footer-footer-card-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-footer-card-text {
+    color: #7A7A7A;
+font-family: Commissioner;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+width: 570px;
+margin-top: 24px;
+margin-left: 32px;
+}
+
+.footer-footer-card-t-1 {
+    color: #000;
+font-family: Commissioner;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 32px;
+margin-top: 29px;
+width: 51px;
+height: 39px;
+
+}
+
+.footer-footer-card-t-2 {
+    color: #7A7A7A;
+font-family: Commissioner;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 40px;
+padding-bottom: 46px;
+
+}
+
+.footer-footer-card-item {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.footer-footer-card-item-2 {
+    width: 157px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 33.5px;
+background: #3CB3AB;
+margin-left: 341px;
+margin-top: 24px;
+}
+
+.carser-footer {
+    color: #FFF;
+font-family: Commissioner;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 15px;
+}
+
+
+
+.footer-footer-card-1 {
+    margin-top: 40px;
+    margin-left: 48px;
+    width: 634px;
+height: 248px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 0.15);
+background: #FFF;
+}
+
+.card-footer-t-1 {
+    color: #000;
+font-family: Commissioner;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 38px;
+margin-left: 32px;
+}
+
+.card-footer-text-1 {
+    color: #3CB3AB;
+text-align: right;
+font-family: Commissioner;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 40px;
+margin-right: 32px;
+}
+
+.footer-footer-card-2-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-footer-card-text-1 {
+    color: #7A7A7A;
+font-family: Commissioner;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+width: 570px;
+margin-top: 24px;
+margin-left: 32px;
+}
+
+.footer-footer-card-t-1-1 {
+    color: #000;
+font-family: Commissioner;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 32px;
+margin-top: 29px;
+width: 51px;
+height: 39px;
+
+}
+
+.footer-footer-card-t-2-1 {
+    color: #7A7A7A;
+font-family: Commissioner;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 40px;
+padding-bottom: 46px;
+
+}
+
+.footer-footer-card-item-1 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.footer-footer-card-item-2-1 {
+    width: 157px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 33.5px;
+background: #2F2F2F;
+margin-left: 341px;
+margin-top: 24px;
+}
+
+.carser-footer-1 {
+    color: #FFF;
+font-family: Commissioner;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 15px;
+}
